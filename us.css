@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    color:white;
+}
+*{
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    padding-bottom: 80px;
+}
+body{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.body{
+    font-size: 14px;
+    color:black;
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+    padding :0;
+}
+.row{
+    display: flex;
+    margin-right: -15px;
+    margin-left: -15px;
+    flex-wrap: wrap;
+}
+.section{
+    background: #f5f5f5;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.section .wrap{
+    float: left;
+    width: 50%;
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.section .wrap ul{
+    list-style: none;
+}
+.section .wrap li{
+    float: left;
+}
+.section .wrap a{
+    text-decoration: none;
+    margin:7px;
+}
+.section .wrap span{
+    color: #c29958;
+}
+.map{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    
+}
+.map .infor .section-contact{
+    margin-top: -4px;
+}
+.map .infor .contact{
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+}
+.map .infor .contact .contact-title{
+    line-height: 1;
+    padding-bottom: 22px;
+    font-size: 20px;
+    color: black;
+}
+.map .contact .message form input{
+    width: 90%;
+    border: none;
+    padding: 10px 10px;
+    border-bottom: 3px solid transparent;
+    background-color: #f7f7f7;
+    margin-bottom: 30px;
+    margin-left:15px;
+
+}
+.map .contact .message form textarea{
+    width: 95%;
+    border: none;
+    padding: 10px 10px;
+    border-bottom: 3px solid transparent;
+    background-color: #f7f7f7;
+    margin-bottom: 30px;
+    height: 150px;
+    margin-left:15px ;
+
+}
+.form{
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.form-message{
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.btn{
+    color: #fff;
+    font-size: 15px;
+    border-radius: 0;
+    background-color: #c29958;
+    padding: 12px 25px;
+    margin-left: 15px;
+    border:navajowhite;
+
+}
+.contact-infor{
+    height: 100%;
+}
+.contact-infor ul li {
+    border-bottom: 1px solid #efefef;
+    padding-bottom: 18px;
+    margin-bottom: 18px;
+    color: #888888;
+}
+.contact-infor ul li i {
+    font-size: 18px;
+    padding-right: 10px;
+    color:black;
+    float: left;
+}
+.contact-infor .working-time h6 {
+    padding-bottom: 5px;
+}
+h6{
+    font-size: 20px;
+    color:black;
+    padding-bottom: 5px;
+}
+.contact p{
+   color: #888888;
+
+}
+.contact-infor ul{
+    list-style: none;
+}
